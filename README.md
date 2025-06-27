@@ -5,6 +5,16 @@ A simple and interactive web application that predicts the risk of heart disease
 Built with [Streamlit](https://streamlit.io/) and [scikit-learn](https://scikit-learn.org/), this app provides quick predictions using patient health metrics.
 
 ---
+## 📊 Dataset
+
+- File: `heart_disease.csv`
+- Columns:
+  - `age`, `sex`, `chest pain type`, `resting bp s`, `cholesterol`,  
+    `fasting blood sugar`, `resting ecg`, `max heart rate`,  
+    `exercise angina`, `oldpeak`, `ST slope`, `target`
+
+
+---
 
 ## 📘 Notebook
 
@@ -43,10 +53,12 @@ is documented step-by-step in [`heart_disease.ipynb`](./heart_disease.ipynb).
 heart-disease-app/
 │
 ├── app.py                   # Streamlit web app
-├── heart_disease.ipynb      # Jupyter Notebook (EDA + model building)
-├── heart_disease_model.pkl  # Trained ML model with pipeline
+├── heart_disease.ipynb      # EDA + model building notebook
+├── heart_disease.csv        # Input dataset
+├── heart_disease_model.pkl  # Trained model (pipeline)
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
+
 
 ```
 
